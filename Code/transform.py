@@ -81,8 +81,9 @@ class DataTranformation:
             query = """select fs.sales_id,fs.quantity,fs.sale_date,fs.price,fs.quantity*fs.price as total_sales,
                         p.product_id,p.product_name,s.store_id,s.store_name
                         from filtered_sales_data as fs
-                        inner join staging_product as p
-                        inner join staging_stores as s;"""
+                        inner join staging_product as p on p.product_id= fs.product_id
+                        inner join staging_stores as s on s.store_id= fs.store_id
+                        """
             df = pd.read_sql(query, mysql_engine)
             df.to_sql("sales_with_details", mysql_engine, if_exists='replace', index=False)
             logger.info("joiner_sales_product_storeTransfromation  has completed..")
