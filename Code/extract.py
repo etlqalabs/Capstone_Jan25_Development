@@ -1,7 +1,7 @@
 # Assigmement :
 # 1.  Implement the product_data.csv file from S3 system ( AWS ) rather than extracting it from local
 # 2. Learn what are the different logging level ( there are 8 logging levels ) ( Info, error, fatal....)
-# 3. complete the exception handling for remaining fuctions
+# 3. complete the exception handling for remaining fuctions in extraction
 
 import pandas as pd
 import paramiko
