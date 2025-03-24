@@ -11,9 +11,8 @@ import cx_Oracle
 import logging
 from Config.config import *
 
-
 logging.basicConfig(
-    filename='Logs/process.log',  # Name of the log file
+    filename='Logs/Extractprocess.log',  # Name of the log file
     filemode='a',  # 'a' to append, 'w' to overwrite
     format='%(asctime)s - %(levelname)s - %(message)s',  # Log format
     level=logging.INFO  # Set the logging level
@@ -83,12 +82,13 @@ class DataExtraction:
         df.to_sql("staging_stores",mysql_engine,if_exists='replace',index=False)
         logger.info("Data extraction for stores data  has completed..")
 
-extractRef = DataExtraction()
-#extractRef.Sales_Data_From_Linux_Server()
-logger.info("Dtaa extarction processs started...")
-extractRef.extraction_of_sales_data_file()
-extractRef.extraction_of_product_data_file()
-extractRef.extraction_of_supplier_data_file()
-extractRef.extraction_of_inventory_data_file()
-extractRef.extraction_of_stores_data_Oracle_db()
-logger.info("Dtaa extarction processs successfully completed...")
+if __name__ == "__main__":
+    extractRef = DataExtraction()
+    #extractRef.Sales_Data_From_Linux_Server()
+    logger.info("Dtaa extarction processs started...")
+    extractRef.extraction_of_sales_data_file()
+    extractRef.extraction_of_product_data_file()
+    extractRef.extraction_of_supplier_data_file()
+    extractRef.extraction_of_inventory_data_file()
+    extractRef.extraction_of_stores_data_Oracle_db()
+    logger.info("Dtaa extarction processs successfully completed...")

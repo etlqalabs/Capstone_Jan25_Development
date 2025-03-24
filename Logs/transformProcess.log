@@ -1,14 +1,14 @@
-2025-03-21 08:30:09,676 - INFO - Dtaa Transfromaiton processs started...
-2025-03-21 08:30:09,676 - INFO - Filter  Transfromatio  has started..
-2025-03-21 08:30:09,896 - INFO - Filter Transfromation  has completed..
-2025-03-21 08:30:09,896 - INFO - Router- HIGH  Transfromatio  has started..
-2025-03-21 08:30:10,027 - INFO - Router- HIGH Transfromation  has completed..
-2025-03-21 08:30:10,028 - INFO - Router- LOW  Transfromatio  has started..
-2025-03-21 08:30:10,130 - INFO - Router- LOW Transfromation  has completed..
-2025-03-21 08:30:10,130 - INFO - Aggregator  Transfromatio  has started..
-2025-03-21 08:30:10,237 - INFO - Aggregator Transfromation  has completed..
-2025-03-21 08:30:10,237 - INFO - Aggregator inventory Transfromatio  has started..
-2025-03-21 08:30:10,338 - INFO - Aggregator inventory Transfromation  has completed..
-2025-03-21 08:30:10,338 - INFO - joiner_sales_product_store Transfromatio  has started..
-2025-03-21 08:30:11,313 - INFO - joiner_sales_product_storeTransfromation  has completed..
-2025-03-21 08:30:11,313 - INFO - Dtaa Transfromaiton processs successfully completed...
+2025-03-24 08:06:31,435 - INFO - Dtaa Transfromaiton processs started...
+2025-03-24 08:06:31,436 - INFO - Filter  Transfromatio  has started..
+2025-03-24 08:06:31,536 - INFO - Filter Transfromation  has completed..
+2025-03-24 08:06:31,536 - INFO - Router- HIGH  Transfromatio  has started..
+2025-03-24 08:06:31,645 - INFO - Router- HIGH Transfromation  has completed..
+2025-03-24 08:06:31,645 - INFO - Router- LOW  Transfromatio  has started..
+2025-03-24 08:06:31,713 - INFO - Router- LOW Transfromation  has completed..
+2025-03-24 08:06:31,713 - INFO - Aggregator  Transfromatio  has started..
+2025-03-24 08:06:31,786 - INFO - Aggregator Transfromation  has completed..
+2025-03-24 08:06:31,786 - INFO - Aggregator inventory Transfromatio  has started..
+2025-03-24 08:06:31,855 - INFO - Aggregator inventory Transfromation  has completed..
+2025-03-24 08:06:31,855 - INFO - joiner_sales_product_store Transfromatio  has started..
+2025-03-24 08:06:31,981 - INFO - joiner_sales_product_storeTransfromation  has completed..
+2025-03-24 08:06:31,981 - INFO - Dtaa Transfromaiton processs successfully completed...

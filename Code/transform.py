@@ -56,7 +56,7 @@ class DataTranformation:
     def transform_aggregator_sales_data(self):
         logger.info("Aggregator  Transfromatio  has started..")
         try:
-            query = """select product_id,month(sale_date),year(sale_date),sum(quantity*price) as total_sales 
+            query = """select product_id,month(sale_date)as month,year(sale_date) as year ,sum(quantity*price) as total_sales 
                         from filtered_sales_data group by product_id,month(sale_date),year(sale_date);"""
             df = pd.read_sql(query, mysql_engine)
             df.to_sql("monthly_sales_summary_source", mysql_engine, if_exists='replace', index=False)
@@ -67,7 +67,7 @@ class DataTranformation:
     def transform_aggregator_inventory_level(self):
         logger.info("Aggregator inventory Transfromatio  has started..")
         try:
-            query = """select store_id,sum(quantity_on_hand) from staging_inventoy group by store_id;"""
+            query = """select store_id,sum(quantity_on_hand) as total_inventory from staging_inventoy group by store_id;"""
             df = pd.read_sql(query, mysql_engine)
             df.to_sql("aggregated_inventory_level", mysql_engine, if_exists='replace', index=False)
             logger.info("Aggregator inventory Transfromation  has completed..")
@@ -91,13 +91,13 @@ class DataTranformation:
             logger.error("Error encountered while joiner_sales_product_store transformation",e,exc_info=True)
 
 
-
-transformRef = DataTranformation()
-logger.info("Dtaa Transfromaiton processs started...")
-transformRef.transform_filter_sales_data()
-transformRef.transform_router_sales_data_High()
-transformRef.transform_router_sales_data_Low()
-transformRef.transform_aggregator_sales_data()
-transformRef.transform_aggregator_inventory_level()
-transformRef.transform_joiner_sales_product_store()
-logger.info("Dtaa Transfromaiton processs successfully completed...")
+if __name__ == "__main__":
+    transformRef = DataTranformation()
+    logger.info("Dtaa Transfromaiton processs started...")
+    transformRef.transform_filter_sales_data()
+    transformRef.transform_router_sales_data_High()
+    transformRef.transform_router_sales_data_Low()
+    transformRef.transform_aggregator_sales_data()
+    transformRef.transform_aggregator_inventory_level()
+    transformRef.transform_joiner_sales_product_store()
+    logger.info("Dtaa Transfromaiton processs successfully completed...")

@@ -1,0 +1,12 @@
+2025-03-24 08:06:20,325 - INFO - Dtaa extarction processs started...
+2025-03-24 08:06:20,325 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-03-24 08:06:20,553 - INFO - Data extraction for sales_data_tobe_deleted.csv has completed..
+2025-03-24 08:06:20,553 - INFO - Data extraction for product_data.csv has started..
+2025-03-24 08:06:20,616 - INFO - Data extraction for product_data.csv has completed..
+2025-03-24 08:06:20,617 - INFO - Data extraction for supplier_data.json has started..
+2025-03-24 08:06:20,727 - INFO - Data extraction for supplier_data.json has completed..
+2025-03-24 08:06:20,727 - INFO - Data extraction for inventory_data.xml has started..
+2025-03-24 08:06:20,838 - INFO - Data extraction for inventory_data.xml has completed..
+2025-03-24 08:06:20,838 - INFO - Data extraction for stores data has started..
+2025-03-24 08:06:21,458 - INFO - Data extraction for stores data  has completed..
+2025-03-24 08:06:21,458 - INFO - Dtaa extarction processs successfully completed...
