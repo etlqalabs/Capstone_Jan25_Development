@@ -10,3 +10,125 @@
 2025-03-24 08:06:20,838 - INFO - Data extraction for stores data has started..
 2025-03-24 08:06:21,458 - INFO - Data extraction for stores data  has completed..
 2025-03-24 08:06:21,458 - INFO - Dtaa extarction processs successfully completed...
+2025-03-31 07:45:36,597 - INFO - Dtaa extarction processs started...
+2025-03-31 07:45:36,698 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-03-31 07:51:25,874 - INFO - Data extraction for product_data.csv has started..
+2025-03-31 07:51:26,052 - INFO - Data extraction for product_data.csv has completed..
+2025-03-31 07:51:26,053 - INFO - Data extraction for supplier_data.json has started..
+2025-03-31 07:51:26,214 - INFO - Data extraction for supplier_data.json has completed..
+2025-03-31 07:51:26,214 - INFO - Data extraction for inventory_data.xml has started..
+2025-03-31 07:51:26,349 - INFO - Data extraction for inventory_data.xml has completed..
+2025-03-31 07:51:26,349 - INFO - Data extraction for stores data has started..
+2025-03-31 07:51:26,856 - INFO - Data extraction for stores data  has completed..
+2025-03-31 07:51:26,857 - INFO - Dtaa extarction processs successfully completed...
+2025-03-31 08:06:35,331 - INFO - Dtaa extarction processs started...
+2025-03-31 08:06:35,424 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-03-31 08:06:35,536 - INFO - Data extraction for sales_data_tobe_deleted.csv has completed..
+2025-03-31 08:06:35,536 - INFO - Data extraction for product_data.csv has started..
+2025-03-31 08:28:17,120 - INFO - Data extraction for supplier_data.json has started..
+2025-03-31 08:28:17,423 - INFO - Data extraction for supplier_data.json has completed..
+2025-03-31 08:28:17,423 - INFO - Data extraction for inventory_data.xml has started..
+2025-03-31 08:28:17,708 - INFO - Data extraction for inventory_data.xml has completed..
+2025-03-31 08:28:17,708 - INFO - Data extraction for stores data has started..
+2025-03-31 08:28:18,221 - INFO - Data extraction for stores data  has completed..
+2025-03-31 08:28:18,222 - INFO - Dtaa extarction processs successfully completed...
+2025-03-31 08:29:11,890 - INFO - Dtaa extarction processs started...
+2025-03-31 08:29:11,890 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-03-31 08:29:12,241 - INFO - Data extraction for sales_data_tobe_deleted.csv has completed..
+2025-03-31 08:29:12,241 - INFO - Data extraction for product_data.csv has started..
+2025-03-31 08:29:12,333 - INFO - Data extraction for product_data.csv has completed..
+2025-03-31 08:29:12,333 - INFO - Data extraction for supplier_data.json has started..
+2025-03-31 08:29:12,525 - INFO - Data extraction for supplier_data.json has completed..
+2025-03-31 08:29:12,525 - INFO - Data extraction for inventory_data.xml has started..
+2025-03-31 08:29:12,641 - INFO - Data extraction for inventory_data.xml has completed..
+2025-03-31 08:29:12,641 - INFO - Data extraction for stores data has started..
+2025-03-31 08:29:13,145 - INFO - Data extraction for stores data  has completed..
+2025-03-31 08:29:13,145 - INFO - Dtaa extarction processs successfully completed...
+2025-04-04 07:38:03,480 - INFO - Dtaa extarction processs started...
+2025-04-04 07:38:03,495 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-04-04 07:38:03,890 - INFO - Data extraction for sales_data_tobe_deleted.csv has completed..
+2025-04-04 07:38:03,890 - INFO - Data extraction for product_data.csv has started..
+2025-04-04 07:38:03,986 - INFO - Data extraction for product_data.csv has completed..
+2025-04-04 07:38:03,986 - INFO - Data extraction for supplier_data.json has started..
+2025-04-04 07:38:04,194 - INFO - Data extraction for supplier_data.json has completed..
+2025-04-04 07:38:04,194 - INFO - Data extraction for inventory_data.xml has started..
+2025-04-04 07:38:04,540 - INFO - Data extraction for inventory_data.xml has completed..
+2025-04-04 07:38:04,541 - INFO - Data extraction for stores data has started..
+2025-04-04 07:38:05,322 - INFO - Data extraction for stores data  has completed..
+2025-04-04 07:38:05,322 - INFO - Dtaa extarction processs successfully completed...
+2025-04-04 07:38:05,322 - INFO - Dtaa Transfromaiton processs started...
+2025-04-04 07:38:05,323 - INFO - Filter  Transfromatio  has started..
+2025-04-04 07:38:05,529 - INFO - Filter Transfromation  has completed..
+2025-04-04 07:38:05,529 - INFO - Router- HIGH  Transfromatio  has started..
+2025-04-04 07:38:05,683 - INFO - Router- HIGH Transfromation  has completed..
+2025-04-04 07:38:05,683 - INFO - Router- LOW  Transfromatio  has started..
+2025-04-04 07:38:05,865 - INFO - Router- LOW Transfromation  has completed..
+2025-04-04 07:38:05,865 - INFO - Aggregator  Transfromatio  has started..
+2025-04-04 07:38:05,968 - INFO - Aggregator Transfromation  has completed..
+2025-04-04 07:38:05,968 - INFO - Aggregator inventory Transfromatio  has started..
+2025-04-04 07:38:06,058 - INFO - Aggregator inventory Transfromation  has completed..
+2025-04-04 07:38:06,058 - INFO - joiner_sales_product_store Transfromatio  has started..
+2025-04-04 07:38:06,187 - INFO - joiner_sales_product_storeTransfromation  has completed..
+2025-04-04 07:38:06,188 - INFO - Dtaa Transfromaiton processs successfully completed...
+2025-04-04 07:38:06,188 - INFO - Data Loading processs started...
+2025-04-04 07:38:06,213 - INFO - Fact_sales table load started...
+2025-04-04 07:38:06,213 - INFO - insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)  
+                        select sales_id,product_id,store_id,quantity,total_sales,sale_date from sales_with_details;
+                        
+2025-04-04 07:38:06,308 - INFO - Fact_inventory table load started...
+2025-04-04 07:38:06,308 - INFO - insert into fact_inventory(product_id,store_id,quantity_on_hand,last_updated)  
+                        select product_id,store_id,quantity_on_hand,last_updated from staging_inventoy;
+                        
+2025-04-04 07:38:06,344 - INFO - monthly_sales_summary table load started...
+2025-04-04 07:38:06,344 - INFO - insert into monthly_sales_summary(product_id,month,year,total_sales)
+                        select product_id,month,year,total_sales from monthly_sales_summary_source;
+2025-04-04 07:38:06,370 - INFO - inventory_level_by_store_ table load started...
+2025-04-04 07:38:06,371 - INFO - insert into inventory_levels_by_store(store_id,total_inventory)
+                        select store_id,total_inventory from aggregated_inventory_level;
+2025-04-04 07:38:06,392 - INFO - Data Loading processs completed...
+2025-04-04 07:40:16,346 - INFO - Dtaa extarction processs started...
+2025-04-04 07:40:16,347 - INFO - Data extraction for sales_data_tobe_deleted.csv has started..
+2025-04-04 07:40:16,497 - INFO - Data extraction for sales_data_tobe_deleted.csv has completed..
+2025-04-04 07:40:16,497 - INFO - Data extraction for product_data.csv has started..
+2025-04-04 07:40:16,575 - INFO - Data extraction for product_data.csv has completed..
+2025-04-04 07:40:16,575 - INFO - Data extraction for supplier_data.json has started..
+2025-04-04 07:40:16,698 - INFO - Data extraction for supplier_data.json has completed..
+2025-04-04 07:40:16,699 - INFO - Data extraction for inventory_data.xml has started..
+2025-04-04 07:40:16,879 - INFO - Data extraction for inventory_data.xml has completed..
+2025-04-04 07:40:16,879 - INFO - Data extraction for stores data has started..
+2025-04-04 07:40:17,330 - INFO - Data extraction for stores data  has completed..
+2025-04-04 07:40:17,462 - INFO - Dtaa extarction processs successfully completed...
+2025-04-04 07:40:17,463 - INFO - Dtaa Transfromaiton processs started...
+2025-04-04 07:40:17,463 - INFO - Filter  Transfromatio  has started..
+2025-04-04 07:40:17,594 - INFO - Filter Transfromation  has completed..
+2025-04-04 07:40:17,596 - INFO - Router- HIGH  Transfromatio  has started..
+2025-04-04 07:40:17,683 - INFO - Router- HIGH Transfromation  has completed..
+2025-04-04 07:40:17,683 - INFO - Router- LOW  Transfromatio  has started..
+2025-04-04 07:40:17,778 - INFO - Router- LOW Transfromation  has completed..
+2025-04-04 07:40:17,778 - INFO - Aggregator  Transfromatio  has started..
+2025-04-04 07:40:17,852 - INFO - Aggregator Transfromation  has completed..
+2025-04-04 07:40:17,852 - INFO - Aggregator inventory Transfromatio  has started..
+2025-04-04 07:40:17,938 - INFO - Aggregator inventory Transfromation  has completed..
+2025-04-04 07:40:17,939 - INFO - joiner_sales_product_store Transfromatio  has started..
+2025-04-04 07:40:18,031 - INFO - joiner_sales_product_storeTransfromation  has completed..
+2025-04-04 07:40:18,032 - INFO - Dtaa Transfromaiton processs successfully completed...
+2025-04-04 07:40:18,032 - INFO - Data Loading processs started...
+2025-04-04 07:40:18,043 - INFO - Fact_sales table load started...
+2025-04-04 07:40:18,043 - INFO - insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)  
+                        select sales_id,product_id,store_id,quantity,total_sales,sale_date from sales_with_details;
+                        
+2025-04-04 07:40:18,090 - INFO - Fact_sales table load completed...
+2025-04-04 07:40:18,091 - INFO - Fact_inventory table load started...
+2025-04-04 07:40:18,091 - INFO - insert into fact_inventory(product_id,store_id,quantity_on_hand,last_updated)  
+                        select product_id,store_id,quantity_on_hand,last_updated from staging_inventoy;
+                        
+2025-04-04 07:40:18,113 - INFO - Fact_inventory table load completed...
+2025-04-04 07:40:18,115 - INFO - monthly_sales_summary table load started...
+2025-04-04 07:40:18,115 - INFO - insert into monthly_sales_summary(product_id,month,year,total_sales)
+                        select product_id,month,year,total_sales from monthly_sales_summary_source;
+2025-04-04 07:40:18,131 - INFO - monthly_sales_summary table load completed...
+2025-04-04 07:40:18,131 - INFO - inventory_level_by_store_ table load started...
+2025-04-04 07:40:18,131 - INFO - insert into inventory_levels_by_store(store_id,total_inventory)
+                        select store_id,total_inventory from aggregated_inventory_level;
+2025-04-04 07:40:18,151 - INFO - inventory_level_by_store_ table load completed...
+2025-04-04 07:40:18,152 - INFO - Data Loading processs completed...

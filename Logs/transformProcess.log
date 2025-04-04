@@ -12,3 +12,17 @@
 2025-03-24 08:06:31,855 - INFO - joiner_sales_product_store Transfromatio  has started..
 2025-03-24 08:06:31,981 - INFO - joiner_sales_product_storeTransfromation  has completed..
 2025-03-24 08:06:31,981 - INFO - Dtaa Transfromaiton processs successfully completed...
+2025-03-31 08:29:57,308 - INFO - Dtaa Transfromaiton processs started...
+2025-03-31 08:29:57,324 - INFO - Filter  Transfromatio  has started..
+2025-03-31 08:29:57,494 - INFO - Filter Transfromation  has completed..
+2025-03-31 08:29:57,494 - INFO - Router- HIGH  Transfromatio  has started..
+2025-03-31 08:29:57,626 - INFO - Router- HIGH Transfromation  has completed..
+2025-03-31 08:29:57,626 - INFO - Router- LOW  Transfromatio  has started..
+2025-03-31 08:29:57,751 - INFO - Router- LOW Transfromation  has completed..
+2025-03-31 08:29:57,751 - INFO - Aggregator  Transfromatio  has started..
+2025-03-31 08:29:57,866 - INFO - Aggregator Transfromation  has completed..
+2025-03-31 08:29:57,868 - INFO - Aggregator inventory Transfromatio  has started..
+2025-03-31 08:29:57,972 - INFO - Aggregator inventory Transfromation  has completed..
+2025-03-31 08:29:57,972 - INFO - joiner_sales_product_store Transfromatio  has started..
+2025-03-31 08:29:58,102 - INFO - joiner_sales_product_storeTransfromation  has completed..
+2025-03-31 08:29:58,102 - INFO - Dtaa Transfromaiton processs successfully completed...
